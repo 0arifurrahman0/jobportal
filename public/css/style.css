@@ -1,0 +1,180 @@
+img{
+	max-width: 100%;
+	max-height: 100%;
+}
+/*
+* Loader css start
+*/
+#preloader { 
+	position: fixed; 
+	left: 0; 
+	top: 0; 
+	z-index: 999; 
+	width: 100%; 
+	height: 100%; 
+	overflow: visible; 
+	background: #fff url(../images/ajax.gif) no-repeat center center;
+}
+#loader {
+    display:    none;
+    position:   fixed;
+    z-index:    1000;
+    top:        0;
+    left:       0;
+    height:     100%;
+    width:      100%;
+    background: rgba( 255, 255, 255, .8 ) 
+                url('../images/ajax.gif')
+                50% 50% 
+                no-repeat;
+}
+body.loading {
+    overflow: hidden;   
+}
+body.loading #loader {
+    display: block;
+}
+
+.homjobcat{
+    -webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;	
+}
+.bold{
+	font-weight:bold;
+}
+.box-md{
+	margin-bottom: 20px;
+	min-height: 20px;
+	padding: 19px;	
+}
+.anchor:hover{
+	text-decoration:none;
+}
+.cursor{
+	cursor:pointer;
+}
+.text-light{
+	font-weight:300;
+}
+.left-sidebar a{
+	float: left !important;
+	text-align: left;
+	text-transform: inherit;
+}
+.left-sidebar i, .icon-margin{
+	margin-right:10px;
+}
+.icon-margin-sm{
+	margin-right:5px;
+}
+.carousel-inner .item{
+	max-height:300px;
+}
+.margin-top{
+	margin-top:30px;
+}
+.icon-center{
+	text-align: center;
+	width: 100%;	
+}
+.pad-md{
+	padding:30px;
+}
+.required{
+	color:red;
+}
+.checkbox-container {
+  border: 1px solid #ddd;
+  height: 200px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  padding: 10px 15px;
+}
+ul.nav li.dropdown:hover > ul.dropdown-menu {
+    display: block;    
+}
+
+.demo_panel {
+	background-color: #fff;
+	color: #000;
+	left: -200px;
+	padding: 20px;
+	position: fixed;
+	top: 100px;
+	width: 200px;
+	z-index: 100;
+}
+.control-panel {
+	background: #fff;
+	cursor: pointer;
+	padding: 5px;
+	position: absolute;
+	right: -44px;
+	top: 0;
+}
+
+.resume{
+	font-size: 12px;
+	line-height: 1.9;
+
+}
+.resume h3{
+	font-size: 20px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.resume p{
+	font-size: 12px;
+}
+.social{
+	padding: 20px 0;
+}
+.social a{
+	display: inline-block;
+	padding: 5px;	
+}
+.category a{
+	color:inherit;
+}
+.hotJobs .well {
+	padding: 10px;
+	height: 80px;
+}
+.hotJobs .media-object {
+  width: 50px;
+}
+.hotJobs .media-body {
+	font-size:12px;
+}
+.hotJobs .media h4.media-heading {
+	font-size: 12px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+/*
+* Not use now
+*
+
+.shadow {
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.05);
+}
+
+.box-text-lg{
+	padding: 20px 0;
+}
+.box-model-lg {
+	background: #fff none repeat scroll 0 0;
+	border: 1px solid #e6e9ed;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	padding: 30px;
+}
+*/
